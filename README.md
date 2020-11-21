@@ -1,2 +1,2 @@
 # alura-typer
-Repository for the Project First Game using JQuery
+Repository for the Project First Game using jQuery
