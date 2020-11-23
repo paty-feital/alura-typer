@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Typer</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center">Alura Typer</h1>
+        <p class="frase center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et.</p>
+
+        <ul class="informacoes center">
+        	<li>
+                <i class="small material-icons icones">description</i>
+                <span class="tamanhoFrase">19</span> Palavras
+            </li>
+        	<li>
+                <i class="small material-icons icones">query_builder</i>
+                <span class="tempoDigitacao">15</span> Segundos</li>    	
+        </ul>
+
+        <textarea class="campoDigitacao" rows="9" cols="40"></textarea>
+
+        <section class="botoes">
+            <a class="btn-floating btn-large waves-effect waves-light red" id="botaoReiniciar"><i class="material-icons">restore</i></a>
+        </section>
+
+        <ul class="center">
+            <li><span class="contadorCaracteres">0</span> Caracteres</li>
+            <li><span class="contadorPalavras">0</span> Palavras</li>        
+        </ul>
+
+        <section class="placar">
+            <h3 class="center">Placar</h3>
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Número de Palavras</th>
+                        <th>Remover?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Douglas</td>
+                        <td>20</td>
+                        <td>
+                            <a href="#" class="botaoRemover">
+                            <i class="small material-icons">delete</i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sergio</td>
+                        <td>10</td>
+                        <td>
+                            <a href="#" class="botaoRemover">
+                                <i class="small material-icons">delete</i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/placar.js"></script>
+</body>
+</html>
