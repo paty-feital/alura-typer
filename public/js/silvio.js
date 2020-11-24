@@ -11,8 +11,9 @@ var linha = "<tr>"+
         $(this).parent().parent().parent().css("background-color","red");
     });
 
-
     $("h1").parent(".vermelha").remove();
 
     var itemDaLista = $("<li>");
     $("ul").append(itemDaLista);
+
+    console.log(itemDaLista);
